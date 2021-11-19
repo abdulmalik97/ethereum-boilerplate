@@ -1,4 +1,4 @@
-# `ethereum-boilerplate`
+# `bdsci-boilerplate`
 
 > React components and hooks for fast building dApps without running own backend
 
@@ -37,7 +37,7 @@ yarn start
 
 # 🧭 Table of contents
 
-- [`ethereum-boilerplate`](#ethereum-boilerplate)
+- [`bdsci-boilerplate`](#bdsci-boilerplate)
 - [🚀 Quick Start](#-quick-start)
 - [🧭 Table of contents](#-table-of-contents)
 - [🏗 Ethereum Components](#-ethereum-components)
