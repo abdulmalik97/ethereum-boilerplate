@@ -8,16 +8,16 @@ import "./ConvertLib.sol";
 // coin/token contracts. If you want to create a standards-compliant
 // token, see: https://github.com/ConsenSys/Tokens. Cheers!
 
-contract MetaCoin {
+contract BDSCICoin {
     mapping(address => uint256) balances;
 
     event Transfer(address indexed _from, address indexed _to, uint256 _value);
 
     constructor() public {
-        balances[tx.origin] = 10000;
+        balances[tx.origin] = 1000000000000;
     }
 
-    string public name = "Test Coin";
+    string public name = "BDSCI Coin";
 
     function sendCoin(address receiver, uint256 amount)
         public
