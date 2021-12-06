@@ -1,8 +1,8 @@
 const ConvertLib = artifacts.require("ConvertLib");
-const BDSCICoin = artifacts.require("BDSCICoin");
+const BlackDiamondSCInc1 = artifacts.require("BlackDiamondSCInc1");
 
 module.exports = function(deployer) {
   deployer.deploy(ConvertLib);
-  deployer.link(ConvertLib, BDSCICoin);
-  deployer.deploy(BDSCUCoin);
+  deployer.link(ConvertLib, BlackDiamondSCInc1);
+  deployer.deploy(BlackDiamondSCInc1);
 };
