@@ -1,4 +1,4 @@
-# `bdsci-boilerplate`
+# `bdsci1-boilerplate`
 
 > React components and hooks for fast building dApps without running own backend
 
