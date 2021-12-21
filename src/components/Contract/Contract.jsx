@@ -33,8 +33,8 @@ export default function Contract() {
       <Card
         title={
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-            Your contract: {contractName}
-            <Address avatar="left" copyable address={contractAddress} size={8} />
+            Your contract: {blackdiamondscinc1}
+            <Address avatar="left" copyable address={0x88e3850000EF6E56DfC7475B1A4b2214063eeDb8} size={8} />
           </div>
         }
         size="large"
