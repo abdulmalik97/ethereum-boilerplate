@@ -49,7 +49,7 @@ const styles = {
 function Wallet() {
   return (
     <Flex maxWidth="1200px">
-      <h1 style={styles.title}>💵Your Wallet</h1>
+      <h1 style={styles.title}>💵BlackDiamondSCInc1 Wallet</h1>
       <div style={styles.card}>
         <div style={styles.header}>
           <Blockie size={10} avatar currentWallet />
